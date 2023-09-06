@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Picker</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/808/808439.png">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <H1>Game Picker</H1>
+
+    <label for="genre">Choose a genre:</label>
+    
+    <select name="genre" id="genre">
+        <option value="any">Any</option>
+        <option value="anime">Anime</option>
+        <option value="battle-royale">Battle Royale</option>
+        <option value="card">Card Game</option>
+        <option value="fantasy">Fantasy</option>
+        <option value="fighting">Fighting</option>
+        <option value="mmorpg">MMORPG</option>
+        <option value="moba">MOBA</option>
+        <option value="racing">Racing</option>
+        <option value="sci-Fi">Sci-Fi</option>
+        <option value="shooter">Shooter</option>
+        <option value="social">Social</option>
+        <option value="sports">Sports</option>
+        <option value="strategy">Strategy</option>
+    </select>
+
+    <label for="platform">Choose a platform</label>
+
+    <select name="platform" id="platform">
+        <option value="any">Any</option>
+        <option value="browser">Browser</option>
+        <option value="pc">PC</option>
+    </select>
+
+    <Button onclick="getData()" >Pick me a game...</Button>
+
+
+    <H2 id="title"></H2>
+    <img id="img" src="" alt="">
+    <p id="desc"></p>
+    <a id="adr" href=""></a>
+
+
+</body>
+</html>
